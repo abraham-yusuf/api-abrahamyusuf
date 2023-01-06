@@ -1,0 +1,40 @@
+{
+  "name": "web3nftid-api",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Api Web3NFT.ID application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi",
+    "heroku-prebuild": "node scripts/postgres-env.js"
+  },
+  "dependencies": {
+    "knex": "0.21.18",
+    "pg": "^8.7.3",
+    "sqlite3": "5.0.0",
+    "strapi": "^3.6.11",
+    "strapi-admin": "^3.6.11",
+    "strapi-utils": "^3.6.11",
+    "strapi-connector-bookshelf": "^3.6.11",
+    "strapi-plugin-content-manager": "^3.6.11",
+    "strapi-plugin-content-type-builder": "^3.6.11",
+    "strapi-plugin-email": "^3.6.11",
+    "strapi-plugin-i18n": "^3.6.11",
+    "strapi-plugin-upload": "^3.6.11",
+    "strapi-plugin-users-permissions": "^3.6.11",
+    "strapi-provider-upload-cloudinary": "^3.6.11"
+  },
+  "author": {
+    "name": "Web3ID"
+  },
+  "strapi": {
+    "uuid": "716b54f9-c05e-4c0f-94c2-639c642b7883"
+  },
+  "engines": {
+    "node": ">=10.16.0 <=14.x.x",
+    "npm": "^6.0.0"
+  },
+  "license": "MIT"
+}
